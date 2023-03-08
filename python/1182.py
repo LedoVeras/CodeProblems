@@ -8,3 +8,4 @@ cur = [matrix[i][column] for i in range(0, 12)]
 sumAll = sum(cur)
 
 print("%.1f" % (sumAll if operation == "s" else (sumAll / 12)))
+#
