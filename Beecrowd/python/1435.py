@@ -12,9 +12,9 @@ while True:
     matrix = [[str(getValue(i, j, half)) for j in range(0, size)] for i in range(0 , size)]
 
     for i in matrix:
-        t = 0
+        t = 1
         for j in i:
-            t+=1
-            print(j, end=" " * (4 - len(j) if t != size else 0))
+            print(((4 - len(j) - t) * " ") + j, end="")
+            t = 0
         print("")
     print("")
