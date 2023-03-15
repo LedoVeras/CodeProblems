@@ -45,6 +45,8 @@ for i in range(1):
     py.hotkey("ctrl", "shift", "d")
     py.moveTo(1542, 177)
     py.click(1542, 177)
+    py.hotkey("ctrl", "tab")
+    
     """
     time.sleep(10)
     py.hotkey("ctrl" , "enter")
