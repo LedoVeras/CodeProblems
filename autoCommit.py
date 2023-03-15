@@ -52,7 +52,4 @@ py.hotkey("ctrl" , "enter")
 py.hotkey("ctrl", "shift", "e")
 py.hotkey("ctrl", "tab")
 
-
-
 time.sleep(4)
-print(py.position())
