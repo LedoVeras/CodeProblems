@@ -22,7 +22,8 @@ for i in range(1):
     py.click(2375, 1050)
 
     py.hotkey("ctrl", "shift", "d")
-    py.click(1542, 177)
+    py.moveTo(1542, 177)
+    py.click()
     py.hotkey("ctrl", "v")
     py.hotkey("ctrl", "shift", "e")
     py.hotkey("ctrl", "tab")
@@ -42,6 +43,7 @@ for i in range(1):
     py.hotkey("ctrl", "s")
 
     py.hotkey("ctrl", "shift", "d")
+    py.moveTo(1542, 177)
     py.click(1542, 177)
     py.hotkey("ctrl" , "enter")
     py.hotkey("ctrl", "shift", "e")
