@@ -2,7 +2,7 @@ import pyautogui as py
 import pyperclip as clip
 import time
 
-py.PAUSE = 0.1
+py.PAUSE = 0.2
 
 for i in range(5):
     py.moveTo(70, 180)
