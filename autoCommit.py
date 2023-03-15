@@ -50,6 +50,8 @@ py.moveTo(1542, 177)
 py.click()
 py.hotkey("ctrl" , "enter")
 py.hotkey("ctrl", "shift", "e")
+py.hotkey("ctrl", "tab")
+
 
 
 time.sleep(4)
