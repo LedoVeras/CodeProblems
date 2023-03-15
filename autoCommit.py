@@ -10,7 +10,6 @@ py.drag(900, 0, 0.2, button='left')
 py.hotkey("ctrl", "c")
 py.hotkey("alt", "tab")
 
-
 py.hotkey("ctrl", "n")
 py.hotkey("ctrl", "s")
 time.sleep(1)
@@ -28,6 +27,10 @@ py.hotkey("ctrl", "shift", "d")
 py.moveTo(1542, 177)
 py.click()
 py.hotkey("ctrl", "v")
+py.hotkey("ctrl", "shift", "e")
+py.hotkey("ctrl", "tab")
+py.hotkey("ctrl", "tab")
+
 
 py.hotkey("alt", "tab")
 py.moveTo(70, 200)
@@ -41,7 +44,10 @@ py.hotkey("alt", "tab")
 py.hotkey("ctrl", "v")
 py.hotkey("ctrl", "s")
 
-
+py.hotkey("ctrl", "shift", "d")
+py.moveTo(1542, 177)
+py.click()
+py.hotkey("ctrl", "enter")
 
 time.sleep(4)
 print(py.position())
