@@ -2,9 +2,9 @@ import pyautogui as py
 import pyperclip as clip
 import time
 
-py.PAUSE = 0.1
+py.PAUSE = 0.2
 
-for i in range(10):
+for i in range(1):
     py.moveTo(70, 170)
     py.drag(900, 0, 0.2, button='left')
     py.hotkey("ctrl", "c")
@@ -25,7 +25,6 @@ for i in range(10):
     py.moveTo(1542, 177)
     py.click()
     py.hotkey("ctrl", "v")
-    time.sleep(0.3)
     py.hotkey("ctrl", "shift", "e")
     py.hotkey("ctrl", "tab")
     py.hotkey("ctrl", "tab")
@@ -46,6 +45,7 @@ for i in range(10):
     py.hotkey("ctrl", "shift", "d")
     py.moveTo(1542, 177)
     py.click(1542, 177)
+    time.sleep(10)
     py.hotkey("ctrl" , "enter")
     py.hotkey("ctrl", "shift", "e")
     py.hotkey("ctrl", "tab")
