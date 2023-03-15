@@ -4,7 +4,7 @@ import time
 
 py.PAUSE = 0.1
 
-for i in range(2):
+for i in range(10):
     py.moveTo(70, 170)
     py.drag(900, 0, 0.2, button='left')
     py.hotkey("ctrl", "c")
