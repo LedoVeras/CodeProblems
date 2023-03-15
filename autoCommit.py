@@ -41,6 +41,7 @@ for i in range(1):
     py.hotkey("ctrl", "a")
     py.hotkey("ctrl", "c")
     py.hotkey("ctrl", "w")
+    time.sleep(0.5)
     py.hotkey("alt", "tab")
     py.hotkey("ctrl", "v")
     py.hotkey("ctrl", "s")
