@@ -24,6 +24,10 @@ py.press("enter")
 py.moveTo(2375, 1050)
 py.click()
 
+py.hotkey("ctrl", "shift", "d")
+py.moveTo(1542, 177)
+py.click()
+py.hotkey("ctrl", "v")
 
 py.hotkey("alt", "tab")
 py.moveTo(70, 200)
@@ -37,11 +41,7 @@ py.hotkey("alt", "tab")
 py.hotkey("ctrl", "v")
 py.hotkey("ctrl", "s")
 
-py.hotkey("ctrl", "shift", "d")
-py.moveTo(1542, 177)
-py.click()
-py.hotkey("ctrl", "v")
-py.hotkey("ctrl", "enter")
+
 
 time.sleep(4)
 print(py.position())
