@@ -25,6 +25,7 @@ for i in range(10):
     py.moveTo(1542, 177)
     py.click()
     py.hotkey("ctrl", "v")
+    time.sleep(0.3)
     py.hotkey("ctrl", "shift", "e")
     py.hotkey("ctrl", "tab")
     py.hotkey("ctrl", "tab")
