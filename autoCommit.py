@@ -11,14 +11,18 @@ py.hotkey("ctrl", "c")
 py.hotkey("alt", "tab")
 
 
-py.hotkey("ctrl", "alt", "n")
+py.hotkey("ctrl", "n")
+py.hotkey("ctrl", "s")
+time.sleep(1)
 py.hotkey("ctrl", "v")
 py.write(".js") 
-py.hotkey("ctrl", "shift", "d")
-py.moveTo(1542, 177)
+py.moveTo(1500, 190)
+py.doubleClick()
+py.moveTo(1500, 142)
+py.doubleClick()
+py.press("enter")
+py.moveTo(2375, 1050)
 py.click()
-py.hotkey("ctrl", "v")
-py.hotkey("ctrl", "enter")
 
 
 py.hotkey("alt", "tab")
@@ -30,9 +34,14 @@ py.click()
 py.hotkey("ctrl", "a")
 py.hotkey("ctrl", "c")
 py.hotkey("alt", "tab")
+py.hotkey("ctrl", "v")
+py.hotkey("ctrl", "s")
 
-
-
+py.hotkey("ctrl", "shift", "d")
+py.moveTo(1542, 177)
+py.click()
+py.hotkey("ctrl", "v")
+py.hotkey("ctrl", "enter")
 
 time.sleep(4)
 print(py.position())
