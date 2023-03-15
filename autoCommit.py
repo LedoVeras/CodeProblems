@@ -4,7 +4,7 @@ import time
 
 py.PAUSE = 0.1
 
-for i in range(2):
+for i in range(20):
     py.moveTo(70, 200)
     py.drag(900, 0, 0.2, button='left')
     py.hotkey("ctrl", "c")
@@ -52,4 +52,4 @@ for i in range(2):
     py.hotkey("ctrl", "shift", "e")
     py.hotkey("ctrl", "tab")
 
-    time.sleep(4)
+    time.sleep(5)
