@@ -1,4 +1,4 @@
-Cells in a Range on an Excel Sheetvar cellsInRange = function(s) {
+cellsInRange = function(s) {
     const alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
     const letters = [s[0], s[3]];    
     const numbers = [parseInt(s[1]) , parseInt(s[4])];
