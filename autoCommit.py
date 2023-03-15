@@ -48,8 +48,8 @@ py.hotkey("ctrl", "s")
 py.hotkey("ctrl", "shift", "d")
 py.moveTo(1542, 177)
 py.click()
+py.hotkey("ctrl" , "enter")
 py.hotkey("ctrl", "shift", "e")
-
 
 
 time.sleep(4)
