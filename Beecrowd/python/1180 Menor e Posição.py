@@ -1,7 +1,19 @@
+input()
 st = ""
+while True:
+    try: 
+        s = input()
+    except EOFError:
+        break
+    
+    if(s == ""):
+        break
+    
+    st += s
+    
+st = " ".join(st.split()).split(" ")
 
-#numbArr = " ".join(input().split())
-#numbList = [int(x) for x in numbArr]
-#mi = min(numbList)
-#print(f"""Menor valor: {mi}
-#Posicao: {numbList.index(mi)}""")
+numbList =  [int(x) for x in st]
+mi = min(numbList)
+print(f"""Menor valor: {mi}
+Posicao: {numbList.index(mi)}""")
